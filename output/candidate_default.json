@@ -1,0 +1,149 @@
+{
+  "candidate_id": null,
+  "full_name": "Umar Mohmed",
+  "emails": [
+    "umarmd0507@gmail.com"
+  ],
+  "phones": [
+    "+919392466128",
+    "+919392466218"
+  ],
+  "location": {
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "IN"
+  },
+  "links": [
+    "https://github.com/07-Umar",
+    "https://linkedin.com/in/umarmohmed",
+    "https://leetcode.com/u/Umar_7"
+  ],
+  "headline": "Research Intern",
+  "years_experience": 0.3,
+  "skills": [
+    "Python",
+    "Java",
+    "SQL",
+    "Machine Learning",
+    "Deep Learning",
+    "NLP",
+    "GenAI",
+    "Model Training And Evaluation",
+    "Software Engineering",
+    "Prompt Engineering",
+    "LLM",
+    "Hugging Face Transformers",
+    "Xlm-Roberta",
+    "Data Structures and Algorithms",
+    "Exploratory Data Analysis (Eda)",
+    "NumPy",
+    "Pandas",
+    "Scikit-learn",
+    "Matplotlib",
+    "Seaborn",
+    "PyTorch",
+    "Whisper (Speech-To-Text)",
+    "Git",
+    "GitHub",
+    "Linux",
+    "Problem Solving",
+    "Analytical Thinking",
+    "Communication",
+    "Team Collaboration",
+    "Continuous Learning",
+    "C++"
+  ],
+  "experience": [
+    {
+      "title": "Research Intern",
+      "company": "Institute of Aeronautical Engineering",
+      "start_date": "2024-05",
+      "end_date": "2024-08",
+      "description": "Institute of Aeronautical Engineering Hyderabad, Telangana\nDevelopedahighlyaccurateMachineLearning\u2013basedNetworkIntrusionDetectionSystem(NIDS)usingbenchmark\ndatasets(KDDCup99,NSL-KDD),leveragingtheRandomForestClassifiertoachieve99.81%accuracyindetecting\nand classifying network anomalies.\nOptimized system performance through feature selection, SMOTE balancing, and hyperparameter tuning, enhanc-\ning real-time detection accuracy, scalability, and fault tolerance.\nTech Stack: Python, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn.",
+      "years": 0.3
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "institution": "Institute of Aeronautical Engineering",
+      "field_of_study": "CSE",
+      "start_date": "2022-07",
+      "end_date": "2026-07"
+    },
+    {
+      "degree": "Secondary School",
+      "institution": "TSBIE Board",
+      "field_of_study": null,
+      "start_date": "2019-07",
+      "end_date": "2021-07"
+    },
+    {
+      "degree": "Secondary School",
+      "institution": "SSC Board",
+      "field_of_study": null,
+      "start_date": "2018-07",
+      "end_date": "2019-07"
+    }
+  ],
+  "_confidence": {
+    "candidate_id": 0.0,
+    "full_name": 0.9500000000000001,
+    "emails": 0.9500000000000001,
+    "phones": 0.6,
+    "location": 0.6,
+    "links": 0.9500000000000001,
+    "headline": 0.675,
+    "years_experience": 0.675,
+    "skills": 0.902,
+    "experience": 0.9,
+    "education": 0.9
+  },
+  "_overall_confidence": 0.81,
+  "_provenance": {
+    "candidate_id": {
+      "source": "unknown",
+      "method": "unknown"
+    },
+    "full_name": {
+      "source": "resume.pdf",
+      "method": "pdf_extraction"
+    },
+    "emails": {
+      "source": "recruiter.csv,resume.pdf",
+      "method": "merge_and_email_normalization"
+    },
+    "phones": {
+      "source": "recruiter.csv,resume.pdf",
+      "method": "merge_and_phone_normalization"
+    },
+    "location": {
+      "source": "recruiter.csv",
+      "method": "csv_parsing_and_normalization"
+    },
+    "links": {
+      "source": "recruiter.csv,resume.pdf",
+      "method": "merge_links"
+    },
+    "headline": {
+      "source": "resume.pdf",
+      "method": "pdf_extraction"
+    },
+    "years_experience": {
+      "source": "resume.pdf",
+      "method": "pdf_timeline_calculation"
+    },
+    "skills": {
+      "source": "recruiter.csv,resume.pdf",
+      "method": "rapidfuzz_normalization_and_merge"
+    },
+    "experience": {
+      "source": "resume.pdf",
+      "method": "pdf_extraction_and_timeline_sorting"
+    },
+    "education": {
+      "source": "resume.pdf",
+      "method": "pdf_extraction_and_date_normalization"
+    }
+  }
+}
