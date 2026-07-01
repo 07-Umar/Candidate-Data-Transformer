@@ -9,7 +9,7 @@ This document details the system design, module layout, and data flow boundaries
 The project follows a modular, decoupled architecture where each step of the pipeline represents a single responsibility:
 
 ```
-eightfold-transformer/
+Candidate-Data-Transformer/
 ├── models/
 │   └── canonical.py             # Canonical Candidate Model (Pydantic schema definition)
 ├── parsers/

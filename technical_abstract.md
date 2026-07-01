@@ -78,6 +78,6 @@ Resume PDF & Recruiter CSV
 ---
 
 Developed by Umar Mohmed | Institute of Aeronautical Engineering
-umarmd0507@gmail.com | github.com/07-Umar/eightfold-transformer
+umarmd0507@gmail.com | github.com/07-Umar/Candidate-Data-Transformer
 
 *Eightfold Engineering Internship Assignment 2026*

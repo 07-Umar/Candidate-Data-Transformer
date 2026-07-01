@@ -84,7 +84,7 @@ The implementation follows four engineering principles:
 ## Folder Structure
 
 ```
-eightfold-transformer/
+Candidate-Data-Transformer/
 ├── config/
 │   ├── default_config.json      # Mapping config for all canonical fields
 │   └── custom_config.json       # Remapped layout omitting education & provenance
@@ -141,8 +141,8 @@ Ensure Python 3.11+ is installed.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/eightfold-transformer.git
-cd eightfold-transformer
+git clone https://github.com/07-Umar/Candidate-Data-Transformer.git
+cd Candidate-Data-Transformer
 
 # Install dependencies
 pip install -r requirements.txt
@@ -259,11 +259,17 @@ The repository delivers all requirements specified by the internship task:
 
 ## Documentation Links
 
-*   **Project Abstract**:
-    *   [Technical Abstract PDF](file:///c:/Users/ASUS/OneDrive/Desktop/eightfold-transformer/docs/Technical_Abstract.pdf)
-    *   [Technical Abstract Markdown](file:///c:/Users/ASUS/OneDrive/Desktop/eightfold-transformer/technical_abstract.md)
-*   **Technical Design & Architecture**:
-    *   [Technical Design PDF](file:///c:/Users/ASUS/OneDrive/Desktop/eightfold-transformer/docs/Technical_Design.pdf)
-    *   [Technical Design Markdown](file:///c:/Users/ASUS/OneDrive/Desktop/eightfold-transformer/technical_design.md)
-    *   [Architecture Diagram](file:///c:/Users/ASUS/OneDrive/Desktop/eightfold-transformer/ARCHITECTURE.md)
-    *   [Design Methodology Strategy](file:///c:/Users/ASUS/OneDrive/Desktop/eightfold-transformer/DESIGN.md)
+### Project Abstract
+
+- [Technical Abstract PDF](docs/Technical_Abstract.pdf)
+- [Technical Abstract (Markdown)](technical_abstract.md)
+
+### Technical Design
+
+- [Technical Design PDF](docs/Technical_Design.pdf)
+- [Technical Design (Markdown)](technical_design.md)
+
+### Architecture & Design
+
+- [Architecture](ARCHITECTURE.md)
+- [Design Methodology](DESIGN.md)
