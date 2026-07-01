@@ -267,4 +267,3 @@ The repository delivers all requirements specified by the internship task:
     *   [Technical Design Markdown](file:///c:/Users/ASUS/OneDrive/Desktop/eightfold-transformer/technical_design.md)
     *   [Architecture Diagram](file:///c:/Users/ASUS/OneDrive/Desktop/eightfold-transformer/ARCHITECTURE.md)
     *   [Design Methodology Strategy](file:///c:/Users/ASUS/OneDrive/Desktop/eightfold-transformer/DESIGN.md)
-
