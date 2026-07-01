@@ -81,7 +81,112 @@ The implementation follows four engineering principles:
 
 ---
 
-## Folder Structure
+## Installation & Setup
+
+Ensure Python 3.11+ is installed.
+
+```bash
+# Clone the repository
+git clone https://github.com/07-Umar/Candidate-Data-Transformer.git
+cd Candidate-Data-Transformer
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## Run Instructions
+
+### Command Line Interface (CLI)
+Run the pipeline using `app.py`:
+
+#### 1. Default Configuration
+```bash
+python app.py \
+    --csv inputs/recruiter.csv \
+    --resume inputs/resume.pdf \
+    --config config/default_config.json \
+    --output output/candidate_default.json
+```
+
+#### 2. Custom Configuration
+```bash
+python app.py \
+    --csv inputs/recruiter.csv \
+    --resume inputs/resume.pdf \
+    --config config/custom_config.json \
+    --output output/candidate_custom.json
+```
+
+### Streamlit Dashboard
+Launch the web interface for manual file uploads and visual inspection:
+
+```bash
+python -m streamlit run app.py
+```
+
+---
+
+# Application Screenshots
+
+The following screenshots demonstrate the complete end-to-end execution of the Candidate Data Transformer application.
+
+---
+
+## 1. Dashboard & File Upload
+
+Shows the main dashboard where recruiters can upload a Resume PDF and an optional Recruiter CSV, select the projection configuration, and launch the normalization pipeline.
+
+![Dashboard](docs/screenshots/home.png)
+
+---
+
+## 2. Successful Candidate Transformation
+
+After processing both sources, the application generates a canonical candidate profile and displays a high-level summary including profile details, education, experience, skills, and overall confidence.
+
+![Candidate Summary](docs/screenshots/summary.png)
+
+---
+
+## 3. Merge Summary & Candidate Overview
+
+Displays the ingestion summary, identity verification result, data sources used, confidence score, and normalized candidate profile generated after merging multiple sources.
+
+![Merge Summary](docs/screenshots/overview.png)
+
+---
+
+## 4. Canonical JSON Output
+
+Displays the normalized canonical JSON produced by the projection engine. The output follows the configured schema and is available for download.
+
+![Raw JSON](docs/screenshots/raw_json.png)
+
+---
+
+## 5. Confidence Evaluation
+
+Shows the overall confidence score together with detailed field-level confidence metrics used to evaluate the reliability of the merged candidate profile.
+
+![Confidence](docs/screenshots/confidence.png)
+
+---
+
+## 6. Data Provenance Tracking
+
+Illustrates complete provenance tracking, showing which source contributed each field and the merge decision applied during normalization.
+
+![Provenance](docs/screenshots/provenance.png)
+
+---
+
+> The screenshots above demonstrate the complete workflow of the Candidate Data Transformer, including multi-source ingestion, normalization, merge resolution, confidence scoring, provenance tracking, schema validation, and canonical JSON generation.
+
+---
+
+## Project Structure
 
 ```
 Candidate-Data-Transformer/
@@ -131,53 +236,6 @@ Candidate-Data-Transformer/
 │   └── Technical_Design.pdf     # Print-ready technical design document PDF
 └── tools/
     └── generate_pdf.py          # Documentation PDF compilation script
-```
-
----
-
-## Installation & Setup
-
-Ensure Python 3.11+ is installed.
-
-```bash
-# Clone the repository
-git clone https://github.com/07-Umar/Candidate-Data-Transformer.git
-cd Candidate-Data-Transformer
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
----
-
-## Run Instructions
-
-### Command Line Interface (CLI)
-Run the pipeline using `app.py`:
-
-#### 1. Default Configuration
-```bash
-python app.py \
-    --csv inputs/recruiter.csv \
-    --resume inputs/resume.pdf \
-    --config config/default_config.json \
-    --output output/candidate_default.json
-```
-
-#### 2. Custom Configuration
-```bash
-python app.py \
-    --csv inputs/recruiter.csv \
-    --resume inputs/resume.pdf \
-    --config config/custom_config.json \
-    --output output/candidate_custom.json
-```
-
-### Streamlit Dashboard
-Launch the web interface for manual file uploads and visual inspection:
-
-```bash
-python -m streamlit run app.py
 ```
 
 ---
