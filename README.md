@@ -177,7 +177,7 @@ python app.py \
 Launch the web interface for manual file uploads and visual inspection:
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ---
